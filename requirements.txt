@@ -1,14 +1,19 @@
 pandas==1.5.3
 numpy==1.24.2
 streamlit==1.23.0
-seaborn
-matplotlib
-scikit-learn
-python-docx
-google-generativeai
-pymongo
-langchain
+seaborn==0.12.2
+matplotlib==3.7.1
+scikit-learn==1.2.2
+python-docx==0.8.11
+google-generativeai==0.2.1
+pymongo==4.3.3
+langchain==0.1.16
+
+# Fix markdown-related dependencies
 markdown-it-py==3.0.0
 mdurl==0.1.2
 pygments==2.19.1
 rich==13.9.4
+
+# Upgrade pip to prevent dependency issues
+pip>=25.0.1
