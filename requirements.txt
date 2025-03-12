@@ -1,0 +1,10 @@
+pandas==1.5.3
+numpy==1.24.2
+streamlit==1.23.0
+seaborn
+matplotlib
+scikit-learn
+python-docx
+google-generativeai
+pymongo
+langchain
